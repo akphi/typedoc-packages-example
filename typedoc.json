@@ -1,6 +1,9 @@
 {
-  "entryPoints": ["."],
+  "entryPoints": ["packages/*"],
   "name": "Packages Example",
   "entryPointStrategy": "packages",
-  "includeVersion": true
+  "includeVersion": false
+
+  // Potentially useful for debugging
+  // "logLevel": "Verbose"
 }
